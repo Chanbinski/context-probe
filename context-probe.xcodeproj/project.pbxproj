@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550FFF2A2E15022E004186C4 /* ActiveAppMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550FFF292E15022E004186C4 /* ActiveAppMonitor.swift */; };
 		551DD6932E14C31900E1457C /* context_probeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551DD6922E14C31900E1457C /* context_probeApp.swift */; };
 		551DD6952E14C31900E1457C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551DD6942E14C31900E1457C /* ContentView.swift */; };
 		551DD6972E14C31A00E1457C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551DD6962E14C31A00E1457C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		550FFF292E15022E004186C4 /* ActiveAppMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveAppMonitor.swift; sourceTree = "<group>"; };
 		551DD68F2E14C31900E1457C /* context-probe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "context-probe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		551DD6922E14C31900E1457C /* context_probeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = context_probeApp.swift; sourceTree = "<group>"; };
 		551DD6942E14C31900E1457C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		551DD6912E14C31900E1457C /* context-probe */ = {
 			isa = PBXGroup;
 			children = (
+				550FFF292E15022E004186C4 /* ActiveAppMonitor.swift */,
 				551DD6922E14C31900E1457C /* context_probeApp.swift */,
 				551DD6942E14C31900E1457C /* ContentView.swift */,
 				551DD6962E14C31A00E1457C /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				551DD6952E14C31900E1457C /* ContentView.swift in Sources */,
+				550FFF2A2E15022E004186C4 /* ActiveAppMonitor.swift in Sources */,
 				551DD6932E14C31900E1457C /* context_probeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

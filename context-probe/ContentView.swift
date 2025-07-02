@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var appMonitor = ActiveAppMonitor()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Welcome")
+            HStack {
+                Text("Active App:")
+                Text(appMonitor.currentAppName)
+                    .foregroundColor(.blue)
+            }
         }
         .padding()
     }
